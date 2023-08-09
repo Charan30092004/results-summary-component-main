@@ -178,4 +178,9 @@ p{
         flex-direction: column;
         margin: 0px;
     }
+    #result
+    {
+    
+        width: 100%
+    }
 }
