@@ -37,7 +37,8 @@ body
 {
     border: 1px solid var(--White);
     width: 40%;
-    background-color: var(--Light_royal_blue_background);
+    /* background-color: var(--Light_royal_blue_background); */
+    background-image: linear-gradient(var(--Light_slate_blue_background),var(--Light_royal_blue_background),var(--Cobalt_blue));
     color:var(--Light_lavender);
     display: flex;
     flex-direction: column;
@@ -64,8 +65,9 @@ h1
 
 #percent
 {
-    border: 2px solid var(--Violet_blue_circle);
-    background-color:hsla(256, 72%, 46%, .7);
+    border: .1px solid var(--Persian_blue_circle);
+    /* background-color:hsla(256, 72%, 46%, .7); */
+    background-image: linear-gradient(var(--Cobalt_blue),var(--Persian_blue_circle));
     border-radius: 50%;
     width:50%;
     padding: 25px 25px 25px 40px;
